@@ -9,6 +9,7 @@ public class Ouvinte {
 		
 		tocador = new MVWPlayer();
 		tocador.executar();
+		((MVWPlayer) tocador).votando();
 		
 		
 	}
