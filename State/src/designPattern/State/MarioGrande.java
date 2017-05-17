@@ -22,7 +22,7 @@ public class MarioGrande implements MarioState {
 
 	@Override
 	public MarioState levarDano() {
-		System.out.println("Mario grande");
+		System.out.println("Mario pequeno");
 		return new MarioPequeno();
 	}
 
